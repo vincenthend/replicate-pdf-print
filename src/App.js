@@ -31,12 +31,6 @@ export default function App() {
       orientation: 'portrait',
       filename: "file.pdf",
       unit: 'mm',
-      html2canvas: {
-        width,
-        height,
-        windowWidth: width,
-        windowHeight: height,
-      },
       jsPDF: {
         format: [width, height]
       }
